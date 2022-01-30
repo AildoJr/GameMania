@@ -61,7 +61,7 @@ header{
 
 .banner{
     height: 435px;
-    background-image: url(../Imagens/Banner.png);
+    background-image: url(../Imagens/Banner2.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 85%;
@@ -93,21 +93,74 @@ header{
 .secao-banner{
     background-color: black;
     padding-top: 67px;
+    /*padding-bottom: 0px;*/
     display: flex;
     /*margin: auto;*/
     align-items: center;
     justify-content: space-between;
-    
     margin-bottom: 0px;
 }
 
-.vitrine-texto{
+.navegacao-carrossel{
+    padding-right: 40%;
+    padding-left: 40%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    align-items: center;
+}
+
+.vitrine{
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: sans-serif,'Roboto';
+    font-size: 28;
 }
+.vitrine-item{
+    justify-content: space-between;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+.container-imagem{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vitrine-item img{
+    margin-top: 25px;
+    max-height: 200px;
+    width: auto;
+    max-width: 200px;
+}
+.vitrine-item a{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #347DB1;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif,'Roboto';
+    font-size: 24;
+    max-width: 200px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+/*.vitrine-item .preco-antigo{
+    font-size: 10;
+}
+.vitrine-item .preco-novo{
+    font-size: 18;
+}*/
 
 @media screen  and (max-width:1200px) {
     
