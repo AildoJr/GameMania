@@ -20,7 +20,7 @@ header{
     align-items: center;
 }
 
-.menu{
+.menu-nav{
     width: 285px/*25% 281px*/;
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ header{
     display: flex;
 }
 
-.menu a{
+.menu-nav a{
     color: white;
     text-decoration: none;
     /*text-transform: uppercase;*/
@@ -65,7 +65,7 @@ header{
     background-repeat: no-repeat;
     background-size: contain;
     width: 85%;
-    margin-left: 7.5%;
+    /*margin-left: 7.5%;*/
     /*position: absolute;
     left: 7.5%;
     top: 269px;*/
@@ -91,14 +91,14 @@ header{
 }
 
 .secao-banner{
+    height: min-content;/*569px*/
     background-color: black;
-    padding-top: 67px;
-    /*padding-bottom: 0px;*/
+    padding-top: 134px;
+    padding-bottom: 0px;
     display: flex;
-    /*margin: auto;*/
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0px;
+    /*margin-bottom: 0px;*/
 }
 
 .navegacao-carrossel{
@@ -134,11 +134,13 @@ header{
     justify-content: center;
 }
 .vitrine-item img{
-    margin-top: 25px;
     max-height: 200px;
-    width: auto;
     max-width: 200px;
+    width: auto;
 }
+/*.vitrine-item a p{
+    text-decoration: line-through;
+}*/
 .vitrine-item a{
     margin-top: 25px;
     margin-bottom: 25px;
@@ -147,7 +149,7 @@ header{
     text-decoration: none;
     font-family: sans-serif,'Roboto';
     font-size: 24;
-    max-width: 200px;
+    width: 200px;
     height: auto;
     display: flex;
     text-align: center;
@@ -155,6 +157,37 @@ header{
     /*align-items: center;*/
     /*justify-content: space-between;*/
 }
+
+.vitrine-item .recomendacoes{
+    width: 25%;
+}
+
+footer{
+    background-color:  #205F8C;
+    color: white;
+    height: 472px;
+}
+
+.footer-contato{
+    height: auto;
+    background-color:  #347DB1;
+    margin-top: 41px;
+
+}
+.footer-menu{
+    /*text-align: start;
+    align-content: top;*/
+}
+
+/*.vitrine-item .recomendacoes img{
+    padding-top: 40%;
+    display: flex;
+    
+    justify-content: space-between;
+    padding-bottom: 5%;
+    /*padding-top: 1%;*/
+    /*align-items: center;
+}*/
 /*.vitrine-item .preco-antigo{
     font-size: 10;
 }
