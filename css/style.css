@@ -211,11 +211,20 @@ footer{
     header{
         height:160px;
     }
+    .vitrine{
+        font-size: 18px;
+    }
     .vitrine-item a{
         margin-top: 20px;
         margin-bottom: 20px;
         font-size: 14px;
         width: 200px;
+    }
+    .container-grid{
+        width: 768px;
+    }
+    .so-desktop{
+        display: none;
     }
 }
 
@@ -237,6 +246,12 @@ footer{
         width: 170px;
         height: 170px;
     }
+    .vitrine{
+        font-size: 16px;
+    }
+    .vitrine-item{
+        justify-content: center;
+    }
     .vitrine-item img{
         max-height: 170px;
         max-width: 170px;
@@ -246,5 +261,18 @@ footer{
         margin-bottom: 15px;
         font-size: 12px;
         width: 170px;
+    }
+    .container-grid{
+        width: 320px;
+    }
+    .so-desktop{
+        display: none;
+        /*font-size:0px;*/
+    }
+    .tablet-e-desktop{
+        display:none;
+        /*font-size:0px;
+        background-color: black;
+        visibility:hidden;*/
     }
 }
