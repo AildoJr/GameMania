@@ -21,7 +21,7 @@ header{
 }
 
 .menu-nav{
-    width: 285px/*25% 281px*/;
+    /*width: 285px/*25% 281px*/;
     display: flex;
     justify-content: space-between;
 }
@@ -202,7 +202,17 @@ footer{
         font-size: 14px;/*28;*/
     }
     .menu-secundario a{
-        font-size: 14px;;
+        font-size: 14px;
+    }
+    .menu-pesquisar{
+        width: 217px;
+    }
+    .menu-pesquisar img{
+        width: 38px;
+        height: 38px;
+    }
+    .menu-pesquisar input{
+        height: 38px;
     }
     #logo{
         width: 145px;
@@ -226,14 +236,44 @@ footer{
     .so-desktop{
         display: none;
     }
+    .banner{
+        width: 670px;
+        height: 180px;
+    }
+    .secao-banner{
+        height: min-content;/*569px*/
+        padding-top: 5%;
+        padding-bottom: 5%;
+        /*margin-bottom: 0px;*/
+    }
+    .navegacao-carrossel{
+        padding-right: 32%;
+        padding-left: 32%;
+    }
+    .navegacao-carrossel img{
+        width: 18px;
+        height: 18px;
+    }
 }
 
 @media screen  and (max-width:768px) {
     .menu-nav a{
         font-size: 10px;/*28;*/
+        
     }
     .menu-secundario{
-        /*display: none;*/
+        display: none;
+    }
+    /*.menu-secundario a{
+        font-size: 12px;
+    }*/
+    .menu-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-pesquisar{
+        /*width: 90px;*/
+        display: none;
     }
     #logo{
         width:110px;
@@ -263,7 +303,13 @@ footer{
         width: 170px;
     }
     .container-grid{
-        width: 320px;
+        width: 90%;
+    }
+    .container-grid h6{
+        font-size: 10px;
+    }
+    .container-grid h5{
+        font-size: 12px;
     }
     .so-desktop{
         display: none;
@@ -274,5 +320,26 @@ footer{
         /*font-size:0px;
         background-color: black;
         visibility:hidden;*/
+    }
+    .banner{
+        background-image: url(../Imagens/Banner3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 320px;
+        height: 272px;
+    }
+    .secao-banner{
+        height: min-content;/*569px*/
+        padding-top: 5%;
+        padding-bottom: 5%;
+        /*margin-bottom: 0px;*/
+    }
+    .navegacao-carrossel{
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+    .navegacao-carrossel img{
+        width: 10px;
+        height: 10px;
     }
 }
