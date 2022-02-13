@@ -59,6 +59,14 @@ header{
     font-size: 20px;/*28;*/
 }
 
+.menu-pesquisar-mobile{
+    display: none;
+}
+
+.sanduba{
+    display: none;
+}
+
 .banner{
     height: 435px;
     background-image: url(../Imagens/Banner2.png);
@@ -274,6 +282,26 @@ footer{
     .menu-pesquisar{
         /*width: 90px;*/
         display: none;
+    }
+    .menu-pesquisar-mobile{
+        display: flex;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        width: 85%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .menu-pesquisar-mobile .botao-pesquisar{
+        width: 26px;
+        height: 26px;
+    }
+    .menu-pesquisar-mobile .pesquisar{
+        height: 26px;
+        width: 80%;
+    }
+
+    .sanduba{
+        display: flex;
     }
     #logo{
         width:110px;
