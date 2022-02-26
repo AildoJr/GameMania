@@ -188,7 +188,30 @@ footer{
     vertical-align: top;
     align-content: top;*/
 }
+.secao-login{
+    padding-top: 100px;
+    background-color: black;
+    padding-bottom: 100px;
+}
 
+.login{
+    width: 70%;
+    height: 50%;
+    background-color: #205F8C;
+    color: white;
+}
+.usuario{
+    width: 75%;
+    height: 150px;
+    justify-content: space-between;
+    float: inline-start;
+}
+.senha{
+    width: 75%;
+    height: 150px;
+    justify-content: space-between;
+    float: inline-end;
+}
 /*.vitrine-item .recomendacoes img{
     padding-top: 40%;
     display: flex;
