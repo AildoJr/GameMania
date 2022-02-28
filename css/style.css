@@ -203,14 +203,16 @@ footer{
 .usuario{
     width: 75%;
     height: 150px;
-    justify-content: space-between;
-    float: inline-start;
+    position: static;
+    /*justify-content: space-between;
+    /*float: inline-start;*/
 }
 .senha{
     width: 75%;
     height: 150px;
-    justify-content: space-between;
-    float: inline-end;
+    position: static;
+    /*justify-content: space-between;
+    float: inline-end;*/
 }
 /*.vitrine-item .recomendacoes img{
     padding-top: 40%;
