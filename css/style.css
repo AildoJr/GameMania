@@ -207,19 +207,28 @@ footer{
 .conteudo-login{
     display: flex;
     flex-direction: column;
-    padding-left: 40%;
+    align-items: center;
+    justify-content: center;
+    /*padding-left: 30%;*/
 }
 .usuario{
-    width: 75%;
+    width: 120%;
+    /*background-color: aqua;*/
     height: 50px;
-    position: static;
-    /*justify-content: space-between;*/
-    float: inline-start;
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /*float: inline-start;*/
 }
 .senha{
-    width: 75%;
+    width: 120%;
     height: 50px;
-    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     /*justify-content: space-between;
     float: inline-end;*/
 }
@@ -227,6 +236,9 @@ footer{
     /*width: 75%;*/
     height: 34%;
 
+}
+label{
+    font-size: 20px;
 }
 /*.vitrine-item .recomendacoes img{
     padding-top: 40%;
@@ -408,5 +420,8 @@ footer{
     .navegacao-carrossel img{
         width: 10px;
         height: 10px;
+    }
+    label{
+        font-size: 10px;
     }
 }
