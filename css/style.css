@@ -202,17 +202,20 @@ footer{
     height: 30%;
     background-color: #205F8C;
     color: white;
+    justify-content: center;
 }
 
 .conteudo-login{
+    width:  80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /*background-color: brown;*/
     /*padding-left: 30%;*/
 }
 .usuario{
-    width: 120%;
+    width: 80%;
     /*background-color: aqua;*/
     height: 50px;
     /*position: relative;*/
@@ -223,12 +226,13 @@ footer{
     /*float: inline-start;*/
 }
 .senha{
-    width: 120%;
+    width: 80%;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    /*background-color: darkgoldenrod;*/
     /*justify-content: space-between;
     float: inline-end;*/
 }
