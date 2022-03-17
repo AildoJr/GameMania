@@ -181,15 +181,17 @@ footer{
 }
 
 .footer-contato{
-    height: auto;
+    /*height: auto;*/
     background-color:  #347DB1;
     margin-top: 41px;
+    height: 26.5%;
 
 }
 .footer-menu{
     /*text-align: start;
     vertical-align: top;
     align-content: top;*/
+    height: 73.5%;
 }
 .secao-login{
     padding-top: 100px;
@@ -203,6 +205,8 @@ footer{
     background-color: #205F8C;
     color: white;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .conteudo-login{
@@ -219,7 +223,7 @@ footer{
     max-width: 205px;
     min-width: 100px;
 }
-.usuario{
+.form-login{
     width: 80%;
     /*background-color: aqua;*/
     height: 50px;
@@ -230,13 +234,14 @@ footer{
     flex-direction: row;
     /*float: inline-start;*/
 }
-.senha{
-    width: 80%;
+.form-botoes{
+    width: 70%;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding-top: 25px;
     /*background-color: darkgoldenrod;*/
     /*justify-content: space-between;
     float: inline-end;*/
