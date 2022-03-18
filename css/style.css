@@ -29,7 +29,7 @@ header{
     display: flex;
 }
 
-.menu-nav a{
+.menu-nav label{
     color: white;
     text-decoration: none;
     /*text-transform: uppercase;*/
@@ -172,6 +172,7 @@ header{
 .recomendacoes{
     width: 600px;
     height:200px;
+    flex-direction: column;
 }
 
 footer{
@@ -192,6 +193,14 @@ footer{
     vertical-align: top;
     align-content: top;*/
     height: 73.5%;
+}
+.footer-empilhamento{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-alinhamento{
+    display: flex;
 }
 .secao-login{
     padding-top: 100px;
@@ -235,7 +244,7 @@ footer{
     /*float: inline-start;*/
 }
 .form-botoes{
-    width: 70%;
+    width: 80%;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -246,6 +255,10 @@ footer{
     /*justify-content: space-between;
     float: inline-end;*/
 }
+.form-botoes input{
+    width: min-content;
+    font-size: 14px;
+}
 .botao-logar{
     /*width: 75%;*/
     height: 34%;
@@ -253,6 +266,37 @@ footer{
 }
 label{
     font-size: 20px;
+}
+.estrelas{
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.estrelas img{
+    width:37px;
+    height: 34px;
+}
+.footer-contato h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer-menu h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-menu h6{
+    font-size: 16px;
+}
+.so-celular{
+    display: none;
+    justify-content: center;
+}
+.so-celular h5{
+    font-size: 14px;
+    font-weight: bold;
 }
 /*.vitrine-item .recomendacoes img{
     padding-top: 40%;
@@ -271,7 +315,7 @@ label{
 }*/
 
 @media screen  and (max-width:1200px) {
-    .menu-nav a{
+    .menu-nav label{
         font-size: 14px;/*28;*/
     }
     .menu-secundario a{
@@ -287,7 +331,7 @@ label{
     .menu-pesquisar input{
         height: 38px;
     }
-    #logo{
+    .logo{
         width: 145px;
         height: 85px;
     }
@@ -305,6 +349,20 @@ label{
     }
     .container-grid{
         width: 768px;
+    }
+    .footer-contato h6{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .footer-menu h5{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footer-menu h6{
+        font-size: 14px;
+    }
+    .login{
+        max-width: 600px;
     }
     .so-desktop{
         display: none;
@@ -327,10 +385,31 @@ label{
         width: 18px;
         height: 18px;
     }
+    .estrelas img{
+        width: 32px;
+        height: 30.5px;
+    }
+    footer{
+        height: 322px;
+    }
+    .footer-contato{
+        margin-top: 10px;
+        /*padding-bottom: 10px;*/
+    }
+    .footer-menu{
+        /*margin-top: 10px;*/
+        /*margin-bottom: 10px;*/
+    }
+    .footer-empilhamento{
+        display: flex;
+    }
+    .footer-alinhamento{
+        display: none;
+    }
 }
 
 @media screen  and (max-width:768px) {
-    .menu-nav a{
+    .menu-nav label{
         font-size: 10px;/*28;*/
         
     }
@@ -341,8 +420,9 @@ label{
         font-size: 12px;
     }*/
     .menu-nav{
-        display: flex;
-        justify-content: space-between;
+        /*display: flex;
+        justify-content: space-between;*/
+        flex-direction: column;
     }
     .menu-pesquisar{
         /*width: 90px;*/
@@ -368,7 +448,7 @@ label{
     .sanduba{
         display: flex;
     }
-    #logo{
+    .logo{
         width:110px;
         height: 65px;
     }
@@ -384,6 +464,7 @@ label{
     }
     .vitrine-item{
         justify-content: center;
+        flex-direction: column;
     }
     .vitrine-item img{
         max-height: 170px;
@@ -404,9 +485,27 @@ label{
     .container-grid h5{
         font-size: 12px;
     }
+    footer{
+        background-color:  #205F8C;
+        color: white;
+        height: 182px;
+    }
+    
+    .footer-contato{
+        margin-top: 0px;
+        padding-top: 10px;
+        height: 73.5%;
+        flex-direction: column;
+    }
+    .footer-menu{
+        height: 26.5%;
+    }
     .so-desktop{
         display: none;
         /*font-size:0px;*/
+    }
+    .so-celular{
+        display: flex;
     }
     .tablet-e-desktop{
         display:none;
@@ -436,9 +535,41 @@ label{
         height: 10px;
     }
     label{
-        font-size: 10px;
+        font-size: 12px;
     }
     .conteudo-login{
         width:  90%;
+    }
+    .form-botoes{
+        /*flex-direction: column;*/
+        /*padding-bottom: 10px;*/
+        
+    }
+    .form-botoes input{
+        font-size: 10px;
+    }
+    .botRecSenha{
+        display: none;
+    }
+    .estrelas img{
+        width: 25px;
+        height: 22px;
+    }
+    .footer-menu h6{
+        display: none;
+    }
+    .footer-empilhamento{
+        display: flex;
+    }
+    .footer-alinhamento{
+        display: none;
+    }
+    .footer-contato h6{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .footer-menu h5{
+        font-size: 14px;
+        font-weight: bold;
     }
 }

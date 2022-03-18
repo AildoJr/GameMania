@@ -15,16 +15,16 @@
     <header>
         <div class="container-grid menu-primario">
             <div class="sanduba"><img src="Imagens/Sanduba.png"></div>
-            <a href="index.html"><img id="logo" src="Imagens/Logo.jpeg" alt="Logo do Site" width="213px" height="125px" ></a>
+            <a href="index.html"><img class="logo" src="Imagens/Logo.jpeg" alt="Logo do Site" width="213px" height="125px" ></a>
             <div class="menu-pesquisar">
                 <input class="pesquisar" type="search">
                 <img  class="botao-pesquisar" src="Imagens/Pesquisar.png" alt="Pesquisar">
             </div>
             <nav class="menu-nav">
-                <a href=""><img src="Imagens/Login.png">Login</a>
+                <a href="login.html"><img src="Imagens/Login.png"></a><a href="login.html"><label>Login</label></a>
             </nav>
             <nav class="menu-nav">
-                <a href=""><img src="Imagens/Carrinho.png">Carrinho</a>
+                <a href=""><img src="Imagens/Carrinho.png"></a><a href=""><label>Carrinho</label></a>
             </nav>
         </div>
         <section class="submenu">
@@ -45,7 +45,7 @@
             <div class="conteudo-login">
                 <div class="form-login"><label>Usuário</label><input type="text"></div>
                 <div class="form-login"><label>Senha</label><input type="password"></div>
-                <div class="form-botoes"><input type="button" value="Login"><input type="button" value=" Redefinir senha "></div>
+                <div class="form-botoes"><input type="button" value="Login"><input type="button" class="botRecSenha" value=" Esqueci minha senha "><input type="button" value="Cadastre-se"></div>
             </div>
             <!--<div class="container-grid posicao-texto">
                 <div class="texto-banner">
@@ -90,7 +90,7 @@
                 <h6>Nintendo 3DS</h6>
                 <h6>Clássicos</h6>
             </div>
-            <div><h5>Sobre a Game Mania</h5>
+            <div class="tablet-e-desktop"><h5>Sobre a Game Mania</h5>
                 <h6>Formas de Pagamento</h6>
                 <h6>Frete</h6>
                 <h6>Garantia</h6>
@@ -100,12 +100,17 @@
             </div>
         </div>
         <section class="footer-contato">
+            <div class="so-celular"><h5>Sobre a Game Mania</h5></div>
+            <div class="so-celular"><img src="Imagens/Mídias Sociais.png"></div>
             <div class="container-grid">
-                <h6>Game Mania - CNPJ: 01.234.567/8910-11</h6>
+                <div class="footer-empilhamento"><h6>Game Mania - CNPJ: 01.234.567/8910-11</h6>
                 <h6>atendimento@gamemania.com.br</h6>
-                <h6>(10) 2345-6789</h6>
-                <img src="Imagens/Mídias Sociais.png">
-                <img src="Imagens/Logo.jpeg" width="213px" height="125px">
+                <h6>(10) 2345-6789</h6></div>
+                <div class="footer-alinhamento"><h6>Game Mania - CNPJ: 01.234.567/8910-11</h6></div>
+                <div class="footer-alinhamento"><h6>atendimento@gamemania.com.br</h6></div>
+                <div class="footer-alinhamento"><h6>(10) 2345-6789</h6></div>
+                <img class="tablet-e-desktop" src="Imagens/Mídias Sociais.png">
+                <img class="logo" src="Imagens/Logo.jpeg" width="213px" height="125px">
             </div>
         </section>
     </footer>
