@@ -164,9 +164,6 @@ header{
     height: auto;
     display: flex;
     text-align: center;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
 }
 
 .recomendacoes{
@@ -182,7 +179,6 @@ footer{
 }
 
 .footer-contato{
-    /*height: auto;*/
     background-color:  #347DB1;
     margin-top: 41px;
     height: 26.5%;
@@ -224,24 +220,19 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*background-color: brown;*/
-    /*padding-left: 30%;*/
 }
 .conteudo-login input{
     width: auto;
-    max-width: 205px;
+    max-width: 300px;
     min-width: 100px;
 }
 .form-login{
     width: 80%;
-    /*background-color: aqua;*/
     height: 50px;
-    /*position: relative;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    /*float: inline-start;*/
 }
 .form-botoes{
     width: 80%;
@@ -251,9 +242,6 @@ footer{
     align-items: center;
     flex-direction: row;
     padding-top: 25px;
-    /*background-color: darkgoldenrod;*/
-    /*justify-content: space-between;
-    float: inline-end;*/
 }
 .form-botoes input{
     width: min-content;
@@ -292,11 +280,16 @@ label{
 }
 .so-celular{
     display: none;
-    justify-content: center;
 }
 .so-celular h5{
     font-size: 14px;
     font-weight: bold;
+}
+.posicionamento-header{
+    position: relative;
+}
+.footer-contato .so-celular{
+    justify-content: center;
 }
 /*.vitrine-item .recomendacoes img{
     padding-top: 40%;
@@ -357,9 +350,13 @@ label{
     .footer-menu h5{
         font-size: 14px;
         font-weight: bold;
+        padding-bottom: 4px;
+        padding-top: 5px;
     }
     .footer-menu h6{
         font-size: 14px;
+        padding-bottom: 3px;
+        padding-top: 3px;
     }
     .login{
         max-width: 600px;
@@ -390,13 +387,15 @@ label{
         height: 30.5px;
     }
     footer{
-        height: 322px;
+        height: 362px;
     }
     .footer-contato{
         margin-top: 10px;
+        height: 23.75%; /*85,3px*/
         /*padding-bottom: 10px;*/
     }
     .footer-menu{
+        height: 76.25%;  
         /*margin-top: 10px;*/
         /*margin-bottom: 10px;*/
     }
@@ -415,14 +414,24 @@ label{
     }
     .menu-secundario{
         display: none;
+        flex-direction: column;
+        width: 150px;
+        height: 200px;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        position: absolute;
+        top: 140;
+        right: 60;
+        background-color: #2b72a5;
     }
-    /*.menu-secundario a{
-        font-size: 12px;
-    }*/
+    .menu-secundario a{
+        font-size: 10px;
+    }
     .menu-nav{
         /*display: flex;
         justify-content: space-between;*/
         flex-direction: column;
+        align-items: center;
     }
     .menu-pesquisar{
         /*width: 90px;*/
@@ -571,5 +580,15 @@ label{
     .footer-menu h5{
         font-size: 14px;
         font-weight: bold;
+    }
+    .so-celular label{
+        padding-top: 10px;
+        font-size: 10px;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    .conteudo-login input{
+        max-width: 160px;
+        min-width: 80px;
     }
 }
