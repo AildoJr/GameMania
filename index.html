@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="container-grid menu-primario posicionamento-header">
-            <a href="" onclick="mostrarMenu()"><img class="sanduba" src="Imagens/Sanduba.png">
+            <a href="" onclick="mostrarMenu()"><img class="sanduba" src="Imagens/Sanduba.png"></a>
             <a href="index.html"><img class="logo" src="Imagens/Logo.jpeg" alt="Logo do Site" width="213px" height="125px" ></a>
             <div class="menu-pesquisar">
                 <input class="pesquisar" type="search">
@@ -200,13 +200,15 @@
     <script>
         let menu = document.getElementById("menu-sec");
 
+
         function mostrarMenu()
         {
-            if (menu.style.display != "flex"){
-                menu.style.display = "flex";
-            }else{
-                menu.style.display = "none";
-            }
+            menu.classList.toggle("mostrarMenu");
+            // if (menu.style.display == 'flex'){
+            //     menu.style.display = 'none';
+            // }else{
+            //     menu.style.display = 'flex';
+            // }
         }
     </script>
     <script typer="text/javascript" src="js/scripts.js"></script>
