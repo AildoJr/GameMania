@@ -571,7 +571,7 @@ label{
         max-width: 160px;
         min-width: 80px;
     }
-    .menu-secundario{
+    .menu-secundario{  /* Submenu com quatro opções que se torna flutuante via menuhamburguer na versão mobile*/
         display: none;
         flex-direction: column;
         width: 150px;
