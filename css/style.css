@@ -221,24 +221,40 @@ footer{
     /*align-items: stretch;
     /*justify-content: space-between;*/
 }
+.conteudo-cadastro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
 .conteudo-login input{
     width: auto;
     max-width: 300px;
     min-width: 100px;
 }
+/* .container-formulario{
+    display: flex;
+    justify-content: center;
+} */
 .form-login{
-    width: 80%;
     height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.form-cadastro{
+    height: 50px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
 .form-botoes{
-    width: 80%;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     padding-top: 25px;
@@ -301,6 +317,7 @@ label{
 .btn-link{
     color: white;
     font-size: 12px;
+    width: fit-content;
     /* max-width: 130px; */
     /* border-color: black; */
 }
@@ -308,12 +325,18 @@ label{
     color: black;
     font-size: 12px;
 }
-/* .centralizar{
-    border-color: yellowgreen;
-    border-width: 3px;
+ .centralizar{
+    display:flex;
     justify-content: center;
+    padding-top: 15px;
     width: 100%;
-} */
+} 
+.selectsexo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px, 0px;
+
+}
 /*.vitrine-item .recomendacoes img{
     padding-top: 40%;
     display: flex;
@@ -620,6 +643,12 @@ label{
     }
     .btn{
         font-size: 10px;
+    }
+    .btn-link:hover{
+        font-size: 10px;
+    }
+    .form-cadastro input{
+        font-size: small;
     }
 }
 

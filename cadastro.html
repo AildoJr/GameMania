@@ -42,18 +42,18 @@
     </header>
     <section class="secao-login">
         <div class="container-grid login"> <!-- -->
-            <div class="conteudo-login">
-                <form id="form-cadastro" action="#" method="post">
-                    <div class="form-login"><label>E-mail</label><input type="email" required></div>
-                    <div class="form-login"><label>Senha</label><input type="password" required></div>
-                    <div class="form-login"><label>Nome</label><input type="text" required></div>
-                    <div class="form-login"><label>Sexo</label><input type="radio" id="masculino" value="masculino"><label for="masculino">Masculino</label><input type="radio" label="feminino" value="feminino"><label for="feminino">Feminino</label></div>
-                    <div class="form-login"><label>Data de Nascimento</label><input type="date"></div>
-                    <div class="form-login"><label>CPF</label><input type="number"></div>
-                    <div class="form-login"><label>Telefone</label><input type="tel"></div>
-                    <div class="form-login"><label>Endereço</label><input type="text" required></div>
-                    <div class="form-login"><label>Cidade</label><input type="text" required></div>
-                    <div class="form-login"><label>CEP</label><input type="number" required></div>
+            <div class="conteudo-cadastro">
+                <form id="id_form-cadastro" action="#" method="post">
+                    <div class="form-cadastro"><label>E-mail</label><input type="email" required></div>
+                    <div class="form-cadastro"><label>Senha</label><input type="password" required></div>
+                    <div class="form-cadastro"><label>Nome</label><input type="text" required></div>
+                    <div class="form-cadastro"><label>Sexo</label><div class="selectsexo"><div><input type="radio" id="sexo" name="sexo" value="masculino"><label for="masculino">Masculino</label></div><div><input type="radio" id="sexo" label="feminino" name="sexo" value="feminino"><label for="feminino">Feminino</label></div></div></div>
+                    <div class="form-cadastro"><label>Data de Nascimento</label><input type="date"></div>
+                    <div class="form-cadastro"><label>CPF</label><input type="number"></div>
+                    <div class="form-cadastro"><label>Telefone</label><input type="tel"></div>
+                    <div class="form-cadastro"><label>Endereço</label><input type="text" required></div>
+                    <div class="form-cadastro"><label>Cidade</label><input type="text" required></div>
+                    <div class="form-cadastro"><label>CEP</label><input type="number" required></div>
                     <div class="form-botoes">
                         <button type="button" class="btn btn-primary" onclick="window.location.href='#'">Cadastrar</button>
                         <button type="button" class="btn btn-secondary" onclick="resetForm()">Limpar</button>

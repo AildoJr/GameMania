@@ -15,5 +15,5 @@ function mostrarMenu()
 
 function resetForm()
     {
-        document.getElementById("form-cadastro").reset();
+        document.getElementById("id_form-cadastro").reset();
     }
