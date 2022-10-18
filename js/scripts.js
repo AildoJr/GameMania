@@ -12,3 +12,8 @@ function mostrarMenu()
             //     menu.style.display = 'flex';
             // }
         }
+
+function resetForm()
+    {
+        document.getElementById("form-cadastro").reset();
+    }

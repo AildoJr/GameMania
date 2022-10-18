@@ -292,6 +292,28 @@ label{
     justify-content: center;
 }
 
+.btn-primary{
+    background-color: #347DB1;
+    border-color: #2b72a5;
+    border-width: 2px;
+}
+
+.btn-link{
+    color: white;
+    font-size: 12px;
+    /* max-width: 130px; */
+    /* border-color: black; */
+}
+.btn-link:hover{
+    color: black;
+    font-size: 12px;
+}
+/* .centralizar{
+    border-color: yellowgreen;
+    border-width: 3px;
+    justify-content: center;
+    width: 100%;
+} */
 /*.vitrine-item .recomendacoes img{
     padding-top: 40%;
     display: flex;
@@ -529,17 +551,18 @@ label{
     .conteudo-login{
         width:  90%;
     }
-    .form-botoes{
+    /* .form-botoes{
         /*flex-direction: column;*/
         /*padding-bottom: 10px;*/
         
-    }
+    /* }
     .form-botoes input{
         font-size: 10px;
-    }
-    .botRecSenha{
-        display: none;
-    }
+    } */ 
+    /* .botRecSenha{
+        /* display: none; */
+        /* font-size: 10px;
+    } */
     .estrelas img{
         width: 25px;
         height: 22px;
@@ -571,8 +594,11 @@ label{
         max-width: 160px;
         min-width: 80px;
     }
-    .menu-secundario{  /* Submenu com quatro opções que se torna flutuante via menuhamburguer na versão mobile*/
-        display: none;
+    .menu-secundario{  /* Submenu com quatro opções que se torna flutuante via menu hamburguer na versão mobile*/
+        /* display: none; */
+        display: flex;
+        left: -150px;
+        opacity: 0;
         flex-direction: column;
         width: 150px;
         height: 200px;
@@ -592,8 +618,14 @@ label{
         flex-direction: column;
         align-items: center;
     }
+    .btn{
+        font-size: 10px;
+    }
 }
 
 .mostrarMenu{
-    display: flex !important; 
+    /* display: flex !important;  */
+    opacity: 0.98 !important;
+    left: 0 !important;
+    transition: opacity 0.4s !important;
 }
