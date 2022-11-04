@@ -2,6 +2,9 @@
 //console.log('Mensagem enviada pelo console');
 
 //var numero = 44;
+
+const myCarouselElement = document.querySelector('carouselExampleIndicators');
+
 function mostrarMenu()
         {
             let menu = document.getElementById("menu-sec");
@@ -17,3 +20,6 @@ function resetForm()
     {
         document.getElementById("id_form-cadastro").reset();
     }
+
+
+/*const carousel = new bootstrap.Carousel(myCarouselElement, {interval: 2000,  wrap: true});*/
