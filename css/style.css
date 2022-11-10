@@ -361,15 +361,16 @@ label{
 .carousel-indicators [data-bs-target]{
     width: 25px;
     height: 25px; 
-    min-width: 10px;
-    min-height: 10px;
+    /* min-width: 10px;
+    min-height: 10px; */
     background-image: url('../Imagens/Circulo.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
     border-width: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 28px;
+    margin-right: 28px;
+    flex-shrink: 0;
     /* opacity: 1; */
 }
 .carousel-indicators .active{
@@ -490,13 +491,15 @@ label{
         display: none;
     }
     .carousel-indicators{
-        bottom: -50px;
+        bottom: -55px;
     }
     .carousel-indicators [data-bs-target]{
         width: 18px;
         height: 18px;
-        margin-left: 7px;
-        margin-right: 7px;
+        /* max-width: 25px;
+        max-height: 25px; */
+        margin-left: 20px;
+        margin-right: 20px;
     } 
 }
 
@@ -703,8 +706,10 @@ label{
     .carousel-indicators [data-bs-target]{
         width: 10px;
         height: 10px;
-        /* margin-left: 10px;
-        margin-right: 10px; */
+        /* max-width: 18px;
+        max-height: 18px; */
+        margin-left: 12px;
+        margin-right: 12px;
     } 
 }
 

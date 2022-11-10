@@ -3,7 +3,7 @@
 
 //var numero = 44;
 
-const myCarouselElement = document.querySelector('carouselExampleIndicators');
+const myCarouselElement = document.querySelector('carouselBannerIndicators');
 
 function mostrarMenu()
         {
